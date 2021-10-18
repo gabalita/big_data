@@ -28,6 +28,18 @@ ETL was performed in PySpark and the cleaned data was loaded into SQL. The break
   - Specific reviewer_ids that are deviating from a product_id's average star rating 
 
 
-**Additional tables put together in Deliverable 1:**
-Table with reviews (greater than 20+) where helpful:total was >= 0.5
+**Additional tables put together in Deliverable 2:**<br>
+<br>**Table of products that had more than 20 reviews:**
+<br><img width="582" alt="Screen Shot 2021-10-18 at 1 27 01 PM" src="https://user-images.githubusercontent.com/10199828/137778903-d8ef09a5-3454-49c2-b90b-51a993501810.png">
+
+**Table with reviews (greater than 20+) where helpful:total was >= 0.5 <br>**
 <img width="716" alt="Screen Shot 2021-10-18 at 1 21 49 PM" src="https://user-images.githubusercontent.com/10199828/137778212-b7e4dedb-6afd-4dce-b5bb-674eab8fab69.png">
+
+**Table of Vine 20+ views with 0.5 helpful:total ratio:**
+There is no data for this view because this dataset only included 2 Vine reviews (out of 3.1 million). Those two views only had 3 and 6 total votes, respectively (see below). <br> 
+<img width="565" alt="Screen Shot 2021-10-18 at 1 31 43 PM" src="https://user-images.githubusercontent.com/10199828/137779569-931165de-860e-41fa-ad27-4d69b3dfb89e.png">
+
+**Table of non-Vine 20+ views with 0.5 helpful:total ratio:** <br>
+<img width="716" alt="Screen Shot 2021-10-18 at 1 30 00 PM" src="https://user-images.githubusercontent.com/10199828/137779323-47464f83-719f-4601-af4d-ffe1a531a08c.png">
+
+
