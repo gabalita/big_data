@@ -26,3 +26,8 @@ Summary:
 - A more comprehensive analysis of bias in Vine members could utilize the following views:
   - Percentage of reviews with stars (1-5) for Vine vs non-Vine by every Product Category
   - Specific reviewer_ids that are deviating from a product_id's average star rating 
+
+
+Additional tables put together in Deliverable 1:
+Table with reviews (greater than 20+) where helpful:total was >= 0.5
+<img width="716" alt="Screen Shot 2021-10-18 at 1 21 49 PM" src="https://user-images.githubusercontent.com/10199828/137778212-b7e4dedb-6afd-4dce-b5bb-674eab8fab69.png">
